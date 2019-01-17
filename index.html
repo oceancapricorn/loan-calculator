@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Loan Calculator</h1>
+      <form>
+        <div class="group-input">
+          <span>$</span>
+          <input type="number" id="amount" placeholder="Loan Amount" />
+        </div>
+        <div class="group-input">
+          <span>%</span>
+          <input type="number" id="Interest" placeholder="Interest" />
+        </div>
+        <div class="group-input">
+          <input type="number" id="years" placeholder="Years to Repay" />
+          <div><input type="submit" value="Calculate" /></div>
+        </div>
+      </form>
+      <div id="loading"><img src="img/loading.gif" alt="" /></div>
+      <h5>Results</h5>
+      <div>
+        <div class="results">
+          <span>Montly Payement</span>
+          <input type="number" id="montly-payement" disabled />
+        </div>
+        <div class="results">
+          <span>Total Payement</span>
+          <input type="number" id="total-payement" disabled />
+        </div>
+        <div class="results">
+          <span>Total Interest</span>
+          <input type="number" id="total-interest" disabled />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
