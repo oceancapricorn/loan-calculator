@@ -16,7 +16,7 @@ body {
   text-align: center;
   border-radius: 8px;
 }
-.results {
+.results-all {
   position: relative;
   width: 100%;
 }
@@ -32,6 +32,7 @@ span {
   box-sizing: border-box;
 }
 
-#loading {
+#loading,
+#results {
   display: none;
 }
